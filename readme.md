@@ -5,6 +5,8 @@ installed packages are as follows:
   - css-loader
   - webpack-dev-server
   - webpack-merge
+  - eslint
+  - prettier
 
 npm scripts are added:
   - build: execute npx with config in production mode
