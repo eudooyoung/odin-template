@@ -10,6 +10,7 @@ installed packages are as follows:
 - webpack-merge
 - eslint
 - prettier
+- eslint-config-prettier
 
 npm scripts are added:
 
