@@ -13,6 +13,16 @@ export default defineConfig([
     },
     rules: {
       "no-unused-vars": "warn",
+      "no-empty": "off",
+    },
+  },
+  {
+    files: ["**/*.test.js", "**/*.spec.js"],
+    languageOptions: {
+      globals: globals.jest,
+    },
+    rules: {
+      "no-undef": "warn",
     },
   },
 ]);
