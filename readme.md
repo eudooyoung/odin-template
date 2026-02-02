@@ -19,3 +19,4 @@ npm scripts are added:
 - build: execute npx with config in production mode
 - dev: execute npx with config in development mode
 - deploy: execute git command for deploying
+- test: run jest
